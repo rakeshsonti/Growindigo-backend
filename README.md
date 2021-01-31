@@ -20,14 +20,12 @@ This end point for match the user provide opt with system generated otp for a pa
 
 ## dependency:
 
--  > "dependencies": {
 -  > "cors": "^2.8.5",
 -  > "express": "^4.17.1",
 -  > "mongoose": "^5.11.14",
 -  > "nodemon": "^2.0.7",
 -  > "sendotp": "^1.2.9",
 -  > "unirest": "^0.6.0"
--  > }
 
 ## SendOtp - Node.js SDK
 
@@ -57,12 +55,12 @@ You now have the send, retry and verify otp via following methods.
 -  > sendOtp.retry(contactNumber, retryVoice, callback);
 -  > sendOtp.verify(contactNumber, otpToVerify, callback);
 
-## how to run backend locally
+## how to run locally
 
 1. open vscode new window and open a new folder
 2. clone git repo. in new folder . follow the following command to clone the repo.
 3. -  > git clone https://github.com/rambhajansonti/Growindigo-backend
-4. new you can see a new folder named **Growindigo-backend**.
+4. now you can see a new folder named **Growindigo-backend**.
 5. Open obove folder and run the following command in terminal.
 6. -  > npm install
 7. above command install all dependency locally.
@@ -73,3 +71,7 @@ You now have the send, retry and verify otp via following methods.
 
 -  Nodejs
 -  mongodb
+
+##
+
+[Project Link](https://github.com/rambhajansonti/Growindigo-backend)
