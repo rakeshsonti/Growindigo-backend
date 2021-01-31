@@ -25,7 +25,6 @@ This end point for match the user provide opt with system generated otp for a pa
 -  > "mongoose": "^5.11.14",
 -  > "nodemon": "^2.0.7",
 -  > "sendotp": "^1.2.9",
--  > "unirest": "^0.6.0"
 
 ## SendOtp - Node.js SDK
 
